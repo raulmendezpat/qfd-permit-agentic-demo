@@ -1,5 +1,9 @@
 # QFD Permit to Light Fire — Agentic Prototype (synthetic educational demo)
 
+**Live public demo:** https://qfd-permit-agentic-demo.streamlit.app/  
+**Evaluator walkthrough:** [DEMO_GUIDE.md](DEMO_GUIDE.md)  
+**Source repository:** https://github.com/raulmendezpat/qfd-permit-agentic-demo
+
 This is **not an official Queensland Fire Department application**. All people, land records, districts, restrictions and decisions are fictional. Do not use this app for actual fire permits.
 
 ## What it demonstrates
@@ -53,6 +57,10 @@ QFD_GLOBAL_DAILY_LIMIT = "12"
 - There is no login. Other users can access live AI calls while enabled; do not enter real personal/operational data.
 - SDK trace export excludes sensitive model/tool inputs and outputs (`trace_include_sensitive_data=False`), but ordinary API model requests still transmit synthetic application data to the model. Keep inputs fictional.
 - Revoke any API key accidentally exposed in screenshots/chat/terminal logs and rotate to a fresh dedicated key before public deployment.
+
+## Demonstration guide for evaluators
+
+For a step-by-step English walkthrough with expected results, evidence to inspect and limitations, see **[DEMO_GUIDE.md](DEMO_GUIDE.md)**. Live LLM calls may be temporarily disabled or quota-limited on the public app; the deterministic scenarios remain available.
 
 ## Suggested assessment walkthrough
 
