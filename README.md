@@ -3,6 +3,7 @@
 **Live public demo:** https://qfd-permit-agentic-demo.streamlit.app/  
 **Evaluator walkthrough:** [DEMO_GUIDE.md](DEMO_GUIDE.md)  
 **Source repository:** https://github.com/raulmendezpat/qfd-permit-agentic-demo
+**Context:** University of Oxford and UNSW coursework, 2026. Built for UNSW Online — AI Fluency, *Assessment 2: Applied AI Analysis — Agent Report* (see [DEMO_GUIDE.md](DEMO_GUIDE.md)).
 
 This is **not an official Queensland Fire Department application**. All people, land records, districts, restrictions and decisions are fictional. Do not use this app for actual fire permits.
 
